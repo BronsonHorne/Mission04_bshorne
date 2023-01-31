@@ -8,15 +8,12 @@ label{
     display: inline-block;
     padding-bottom:10px;
 }
-
 textarea{
     font-size: 20px;
 }
-
 li{
     list-style-type: none;
 }
-
 .topPage {
     text-align: center;
     display: block;
