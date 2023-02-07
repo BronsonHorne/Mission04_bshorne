@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" href="~/img/Horne, Bronson.jpg" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Dynamic links to the Home and Grade calc page, that will be applied to every page :)-->
+    <nav>
+        <a asp-controller="m5" asp-action="Index">Home</a>
+        <a asp-controller="m5" asp-action="GradeCalc">Grade Calclator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+
+</body>
+
+</html>
